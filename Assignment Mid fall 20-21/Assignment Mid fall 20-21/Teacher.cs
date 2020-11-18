@@ -35,9 +35,9 @@ namespace Assignment_Mid_fall_20_21
 
         public void showSectionDetails()
         {
-            foreach(Section i in sectionName)
+            for(int i=0;i<countSection;i++)
             {
-                i.showDetails();
+                sectionName[i].showDetails();
             }
         }
     }
